@@ -4,7 +4,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 .btn_primary{
-    
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
 }
 /* header styles */
 header{
@@ -51,4 +58,32 @@ nav li a{
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive design for small device */
+
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+/* responsive design for medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 36px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
