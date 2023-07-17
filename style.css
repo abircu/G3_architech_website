@@ -254,6 +254,9 @@ footer{
     .facts-card-container{
         gap: 24px;
     }
+    .card{
+        width: 100%;
+    }
     footer{
         margin: 24px 20px;
         padding: 5px;
